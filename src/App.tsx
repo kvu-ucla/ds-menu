@@ -18,7 +18,7 @@ function NotFound({ path }: NotFoundProps) {
         </p>
         <a
           className="mt-6 inline-block rounded-xl bg-white px-4 py-2 font-semibold text-slate-950"
-          href="/"
+          href={import.meta.env.BASE_URL}
         >
           Back to feed browser
         </a>
@@ -28,8 +28,7 @@ function NotFound({ path }: NotFoundProps) {
 }
 
 export default function App() {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, ""); // e.g. "/ds-menu"
-  const path = window.location.pathname.replace(base, "").replace(/\/$/, "") || "/";
+  const path = window.location.hash.replace(/^#/, "").replace(/\/$/, "") || "/";
 
   if (path === "/") return <GeneralFeedApp />;
 
