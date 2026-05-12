@@ -1,8 +1,8 @@
 import type { IconMode } from "../types";
 
 export const ICON_BASE_PATHS: Record<IconMode, string> = {
-  light: "/allergen_icons/Light Mode/SVG/",
-  dark: "/allergen_icons/Dark Mode/SVG/",
+  light: `${import.meta.env.BASE_URL}allergen_icons/Light Mode/SVG/`,
+  dark: `${import.meta.env.BASE_URL}allergen_icons/Dark Mode/SVG/`,
 };
 
 export const TAG_TO_ICON = {

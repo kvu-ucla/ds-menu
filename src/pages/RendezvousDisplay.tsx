@@ -16,7 +16,7 @@ export default function RendezvousDisplay({ routeConfig }: RendezvousDisplayProp
   useEffect(() => {
     document.body.dataset.hall = "rende";
     const themeStyles = document.getElementById("themeStyles") as HTMLLinkElement | null;
-    if (themeStyles) themeStyles.href = "/themes/default.css";
+    if (themeStyles) themeStyles.href = `${import.meta.env.BASE_URL}themes/default.css`;
     document.title = `${routeConfig.title} — Digital Signage`;
 
     async function load() {

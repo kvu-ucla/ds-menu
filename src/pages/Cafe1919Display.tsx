@@ -34,7 +34,7 @@ function SideInfoPanel() {
         <div className="mx-auto w-[85%] border-b-2 border-(--hall-border-color) pb-5">
           <div className="mx-auto h-[261px] w-[261px] bg-white">
             <img
-              src="/bgs/cafe1919/qr.svg"
+              src={`${import.meta.env.BASE_URL}bgs/cafe1919/qr.svg`}
               alt="QR code"
               className="h-full w-full object-contain"
             />
@@ -197,7 +197,7 @@ export default function Cafe1919Display({ displayId }: Cafe1919DisplayProps) {
   useEffect(() => {
     document.body.dataset.hall = "cafe1919";
     const themeStyles = document.getElementById("themeStyles") as HTMLLinkElement | null;
-    if (themeStyles) themeStyles.href = "/themes/default.css";
+    if (themeStyles) themeStyles.href = `${import.meta.env.BASE_URL}themes/default.css`;
     document.title = `Cafe 1919 ${displayId} — Digital Signage`;
 
     async function load() {
@@ -242,7 +242,7 @@ export default function Cafe1919Display({ displayId }: Cafe1919DisplayProps) {
     <div className="flex min-h-screen items-center justify-center bg-white">
       <div className="relative h-[1080px] w-[1920px] overflow-hidden">
         <img
-          src="/bgs/cafe1919/Cafe 1919 Background.png"
+          src={`${import.meta.env.BASE_URL}bgs/cafe1919/Cafe 1919 Background.png`}
           alt=""
           className="pointer-events-none absolute inset-0 h-full w-full object-fill"
         />

@@ -54,7 +54,7 @@ export function matchesAnyStation(
 }
 
 export async function loadRegistry(): Promise<Registry> {
-  const res = await fetch("/sources.json", { cache: "no-store" });
+  const res = await fetch(`${import.meta.env.BASE_URL}sources.json`, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load /sources.json: ${res.status}`);
 
   const json: unknown = await res.json();
