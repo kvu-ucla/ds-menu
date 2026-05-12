@@ -28,7 +28,8 @@ function NotFound({ path }: NotFoundProps) {
 }
 
 export default function App() {
-  const path = window.location.pathname.replace(/\/$/, "") || "/";
+  const base = import.meta.env.BASE_URL.replace(/\/$/, ""); // e.g. "/ds-menu"
+  const path = window.location.pathname.replace(base, "").replace(/\/$/, "") || "/";
 
   if (path === "/") return <GeneralFeedApp />;
 
