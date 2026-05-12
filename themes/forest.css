@@ -1,0 +1,25 @@
+/* themes/forest.css
+   Forest theme (green/teal). Distinct but not harsh.
+*/
+:root {
+  --accent: #22c55e; /* green */
+
+  --bg: #06120a;
+  --panel: #0a1a10;
+  --panel2: #08140d;
+
+  --text: #ecfdf5;
+  --muted: #a7f3d0;
+
+  --border: rgba(34, 197, 94, 0.20);
+
+  --ok: #22c55e;
+  --warn: #fbbf24;
+  --danger: #fb7185;
+
+  /* Green/teal glows */
+  --glow1: rgba(34, 197, 94, 0.18);
+  --glow2: rgba(45, 212, 191, 0.10);
+
+  --radius: 14px;
+}

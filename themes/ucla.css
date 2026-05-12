@@ -1,0 +1,10 @@
+/* UCLA-ish theme overrides (tweak as desired) */
+:root {
+  --accent: #2774ae; /* UCLA blue */
+
+  --glow1: rgba(39, 116, 174, 0.18);
+  --glow2: rgba(255, 209, 0, 0.12); /* UCLA gold-ish glow */
+
+  --panel: #0b1b33;
+  --panel2: #0a1630;
+}

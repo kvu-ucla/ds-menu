@@ -1,0 +1,25 @@
+/* themes/sunset.css
+   Warm sunset theme (orange/pink). Easy to see when it’s applied.
+*/
+:root {
+  --accent: #fb7185; /* rose */
+
+  --bg: #0b0610;
+  --panel: #140a1f;
+  --panel2: #120818;
+
+  --text: #fff1f2;
+  --muted: #fecdd3;
+
+  --border: rgba(251, 113, 133, 0.22);
+
+  --ok: #22c55e;
+  --warn: #f59e0b;
+  --danger: #fb7185;
+
+  /* Strong warm glows */
+  --glow1: rgba(251, 113, 133, 0.20);
+  --glow2: rgba(245, 158, 11, 0.14);
+
+  --radius: 16px;
+}

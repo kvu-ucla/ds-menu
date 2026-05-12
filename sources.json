@@ -1,0 +1,134 @@
+{
+  "bruinplate": {
+    "name": "UCLA Bruin Plate (UCLA theme)",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/BruinPlate",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "ucla"
+  },
+  "bruincafe": {
+    "name": "UCLA Bruin Cafe (Neon test theme)",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/BruinCafe",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "neon"
+  },
+  "cafe1919": {
+    "name": "UCLA Cafe 1919",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/Cafe1919",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "ucla",
+    "displays": {
+      "Mains": {
+        "page": "/cafe1919/mains",
+        "stations": [
+          "PIZZETTE",
+          "PANINI",
+          "SOFT BAKED PRETZEL",
+          "SC PRETZEL SAUCE"
+        ],
+        "bg": "/bgs/cafe1919/Cafe 1919 Background.png",
+        "route": "/cafe1919/mains"
+      },
+      "Sides": {
+        "page": "/cafe1919/sides",
+        "stations": [
+          "INSALATE",
+          "SALAD DRESSINGS",
+          "SIDES"
+        ],
+        "bg": "/bgs/cafe1919/Cafe 1919 Background.png",
+        "route": "/cafe1919/sides"
+      },
+      "Specials": {
+        "page": "/cafe1919/specials",
+        "stations": [
+          "DAILY SPECIALS"
+        ],
+        "bg_color": "#FAF7F4",
+        "route": "/cafe1919/specials"
+      },
+      "Late Night": {
+        "page": "/cafe1919/latenight",
+        "stations": [
+          "DAILY SPECIALS",
+          "GELATO",
+          "SORBET",
+          "TOPPING"
+        ],
+        "bg": "/bgs/cafe1919/Cafe 1919 Background.png",
+        "route": "/cafe1919/latenight"
+      }
+    }
+  },
+  "deneve": {
+    "name": "UCLA De Neve (Sunset test theme)",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/DeNeveDining",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "sunset"
+  },
+  "deneve_harvest": {
+    "name": "UCLA De Neve - Harvest (Sunset test theme)",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/DeNeveDining",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "sunset",
+    "jamixStation": "Harvest Kitchen"
+  },
+  "deneve_market": {
+    "name": "UCLA De Neve - Market Salads (Sunset test theme)",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/DeNeveDining",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "sunset",
+    "jamixStation": "Market Salads & Fruit"
+  },
+  "rendezvous": {
+    "name": "UCLA Rendezvous",
+    "url": "https://ucla-xml-cdn.integrations.jamix.com/BoardInterface/Rendezvous",
+    "parser": "jamix_forecastedrecipes",
+    "theme": "ucla",
+    "displays": {
+      "East Specials": {
+        "page": "/rendezvous/east-specials",
+        "stations": [
+          "ASIAN DAILY SPECIAL",
+          "Base",
+          "Entree",
+          "ASIAN TOPPING"
+        ],
+        "bg": "/bgs/rende/Rendezvous East Background.png",
+        "route": "/rendezvous/east-specials"
+      },
+      "East Sushi Bowls": {
+        "page": "/rendezvous/east-sushi-bowls",
+        "stations": [
+          "SUSHI BOWLS"
+        ],
+        "bg": "/bgs/rende/Rendezvous East Background.png",
+        "route": "/rendezvous/east-sushi-bowls"
+      },
+      "West Specials": {
+        "page": "/rendezvous/west-specials",
+        "stations": [
+          "LATIN DAILY LUNCH SPECIAL 11AM - 3PM"
+        ],
+        "bg": "/bgs/rende/Rendezvous West Background.png",
+        "route": "/rendezvous/west-specials"
+      },
+      "West BYO": {
+        "page": "/rendezvous/west-byo",
+        "stations": [
+          "LATIN BUILD YOUR OWN",
+          "LATIN TOPPINGS BAR",
+          "DRINKS"
+        ],
+        "bg": "/bgs/rende/Rendezvous West Background.png",
+        "route": "/rendezvous/west-byo"
+      },
+      "Boba": {
+        "page": "/rendezvous/boba",
+        "stations": [
+          "BOBA DRINKS"
+        ],
+        "route": "/rendezvous/boba"
+      }
+    }
+  }
+}
