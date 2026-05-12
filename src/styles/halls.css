@@ -1,0 +1,24 @@
+:root {
+  --hall-font: Arial, sans-serif;
+  --hall-font-bold: Arial, sans-serif;
+  --hall-color-1: #ffffff;
+}
+
+[data-hall="rende"] {
+  --hall-font: "Tablet Gothic Condensed", Arial, sans-serif;
+  --hall-font-bold: "Tablet Gothic Condensed-Bold", Arial, sans-serif;
+  --hall-color-1: #810031;
+}
+
+[data-hall="cafe1919"] {
+  --hall-font: "Arial Narrow", Arial, sans-serif;
+  --hall-font-bold: "Arial Narrow Bold", Arial, sans-serif;
+  --hall-color-1: #451c00;
+  --hall-color-2: #5c452b;
+  --hall-bg-color: #d83f22;
+  --hall-border-color: #c6a88e;
+}
+
+.hall-display {
+  font-family: var(--hall-font-bold);
+}
